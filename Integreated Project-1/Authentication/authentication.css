@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('pizza.webp');
+    background-size: cover;
+}
+
+.main{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background: #952323;
+    color: #fff;
+    border-radius: 13px;
+    padding: 30px 40px;
+    box-shadow: 5px black;
+}
+
+.main .active{
+    height: 550px;
+}
+
+.main h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.input{
+    width: 100%;
+    height: 50px;
+    margin: 30px;
+}
+.input_box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255, .2);
+    border-radius: 40px;
+    font: 16px;
+    padding: 20px 45px 20px 20px;
+    color: #fff;
+}
+
+.input_box svg{
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    height: 10%;
+    width: 50px;
+    margin-top:6px; 
+    margin-right: 50px;
+    right: 0;
+    padding: 12px;
+    
+}
+
+.btn1{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color:#333;
+    font-weight: 600;
+    
+}
+
+.btn2{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color:#333;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.btn1 a, .btn2 a{
+    text-decoration: none;
+    color: #952323;
+}
+
+.main .register_link{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0px 15px;
+
+}
+
+.register_link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register_link p a:hover{
+    text-decoration: underline;
+}
+
+.main .forgot_password{
+    text-align: right;
+    font-weight: 600;
+}
+
+.forgot_password p a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.forgot_password p a:hover{
+    text-decoration: underline;
+}
+
+.main .login_link{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0px 15px;
+
+}
+
+.login_link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login_link p a:hover{
+    text-decoration: underline;
+}

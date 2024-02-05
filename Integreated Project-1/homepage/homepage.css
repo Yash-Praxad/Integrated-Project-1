@@ -1,0 +1,247 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body{
+  width: 100%;
+  height: auto;
+  display: flex;
+}            
+
+.logo{
+  padding: 5% 8%;
+  margin:10px 0;
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  gap:1rem;
+}
+
+.sidebar{
+  height: 100%;
+  width: 250px;
+  display: flex;
+  background-color: #952323;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+img{
+  margin-top: 8px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+  .menu{
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans",sans-serif;
+  }
+  
+  .menu a{
+  padding: 5% 8%;
+  margin:0.5rem 0;
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  gap:1rem;
+  font-weight: 700;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: none;
+
+  }  
+
+  .logout a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5% 8%;
+  margin:0.5rem 0;
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  gap:1rem;
+  font-weight: 600;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Open Sans",sans-serif;
+
+  }
+  .menu a ion-icon{
+    font-size: 20px;
+  }
+
+  .menu a:hover , .logout a:hover{
+    background-color: crimson;
+    border-radius: 50px;
+  }
+
+  .main{
+  width: 100%;
+  height: max-content;
+  padding: 2%;
+  background: #EEE7DA;
+  margin-left: 252px;
+  min-height: 100vh;
+  }
+
+  .main-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  .search{
+  height: 40px;
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  }
+
+  .search input{
+  height: 100%;
+  width: 600px;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color:#fff;
+  }
+
+  .btn3{
+  background-color: #952323;
+  border: none;
+  border-radius: 20px;
+  width: 120px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  transform: translateX(-35px)
+  }
+  
+  .search:hover{
+  box-shadow: rgba(149,157,165,0.2)0px 8px 24px;
+  }
+
+  .btn3:hover{
+  background-color: crimson;
+  }
+
+  .cart-profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+  }
+
+  .profile ,.cart{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #fff;
+  }
+
+  .profile{
+    margin-left: 1%;
+  }
+
+  .container-head{
+  width: 100%;
+  display: flex;
+  text-transform: uppercase;
+  }
+
+  .container-1 h3{
+  height: 50px;
+  width: auto;
+  font-weight: 1000;
+  font: bold;
+  font-size: 27px;
+  color:black;
+  text-transform: uppercase;
+  font-family: "Open Sans",sans-serif;
+  }
+
+.container-head ion-icon{
+  font-size: 27px;
+  margin-top: 27px;
+  transform: translateX(-1140px);
+  color: #fff;
+}  
+
+.head-2{
+  height: 50px;
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-weight: 600;
+  font: bold;
+  font-size: 20px;
+  color:#fff;
+  font-family: "Open Sans",sans-serif;
+  }
+
+  .container-2{
+  height: 15%;
+  width: 100%;
+  border-radius: 10px;
+  margin: 3% 0;
+  padding: 2%;
+  background-color: #952323;
+  } 
+
+  .container-1{
+    height: 90%;
+    width: 100%;
+    border-radius: 20px;
+    margin: 1.5% 0;
+    padding: 2%;
+    background-color:white;
+    }
+    .items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    }
+
+    .items a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 70px;
+      width: 80px;
+      background-color:#952323;
+      border-radius: 20px;
+    }
+
+  .items a ion-icon{
+    text-decoration: none;
+    font-size: 30px;
+    color:#fff;
+    padding: 3%;
+  }
+
+  p{
+    font-size: 90px;
+  }
+  
+
+  
